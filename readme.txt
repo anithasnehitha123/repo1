@@ -1,1 +1,12 @@
-This is repo1 text Anitha sample file created to check SCM in jenkins
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
+
